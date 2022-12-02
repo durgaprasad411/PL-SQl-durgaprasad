@@ -1,8 +1,4 @@
-select count(*) from emp where deptno>15;
 
-select count(ename) from emp;
-
-select min(deptno) from emp;
 CREATE TABLE EMP
        (EMPNO NUMBER(4) NOT NULL,
         ENAME VARCHAR2(10),
@@ -58,9 +54,11 @@ INSERT INTO EMP VALUES
 
 
 
+select count(*) from emp where deptno>15;
 
+select count(ename) from emp;
 
-
+select min(deptno) from emp;
 
 select max(sal) from emp where deptno=20;
 
